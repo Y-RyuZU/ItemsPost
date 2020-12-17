@@ -1,0 +1,23 @@
+name: ItemsPost
+version: ${project.version}
+main: itemspost.itemspost.ItemsPost
+api-version: 1.13
+description: ログインしたプレイヤーにアイテムを届けるPluginです　補填などにどうぞ！
+
+commands:
+  ip:
+    usage:  /ip
+    description: ItemsPostの様々な設定ができる
+  itemspost:
+    usage:  /itemspost
+    description: ItemsPostの様々な設定ができる
+
+permissions:
+  ip.player:
+    default: true
+  ip.op:
+    default: op
+  ip.*:
+    children:
+      ip.op: true
+      ip.player: true

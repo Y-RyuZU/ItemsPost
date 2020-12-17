@@ -1,0 +1,7 @@
+# Project exclude paths
+/Interfaces/target/
+/ItemsPost/target/
+/v1_12_2/target/
+/v1_14_4/target/
+/v1_15_2/target/
+/v1_16_4/target/

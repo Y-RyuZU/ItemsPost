@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Interfaces" />
+        <module name="v1_15_2" />
+        <module name="ItemsPost (1)" />
+        <module name="v1_16_4" />
+        <module name="v1_14_4" />
+        <module name="items-post" />
+        <module name="v1_12_2" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Interfaces" target="7" />
+      <module name="items-post" target="1.8" />
+      <module name="ItemsPost" target="1.5" />
+      <module name="ItemsPost (1)" target="1.8" />
+      <module name="v1_12_2" target="7" />
+      <module name="v1_14_4" target="7" />
+      <module name="v1_15_2" target="7" />
+      <module name="v1_16_4" target="7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
