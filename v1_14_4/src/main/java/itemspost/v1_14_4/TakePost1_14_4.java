@@ -77,6 +77,11 @@ public class TakePost1_14_4 extends TakePostBase {
                 break;
             } else {
                 e.getPlayer().getInventory().addItem(item);
+                if(item.getItemMeta() != null && item.getItemMeta().getDisplayName() != null) {
+                    e.getPlayer().sendMessage(ChatColor.AQUA +  item.getItemMeta().toString() + "を受け取りました");
+                } else {
+                    e.getPlayer().sendMessage(ChatColor.AQUA +  item.getType().toString() + "を受け取りました");
+                }
                 removeitems.add(item);
                 recive = true;
             }
